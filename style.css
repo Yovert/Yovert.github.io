@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Tarea{
+    /* border: 2px solid red; */
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 15px;
+    width: 400px;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+}
+.Tarea__Select{
+    /* border: 2px solid black; */
+    display: grid;
+    text-align: left;
+    justify-content: center;
+}
+.InputIngre{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    font-size: 18px;
+    height: 30px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+}
+.Label__Ingre{
+    padding: 15px 0px;
+}
+.Tarea__Titulo{
+    /* border: 2px solid saddlebrown; */
+    font-size: 18px;
+}
+.Tarea__Radio{
+    width: 100%;
+    padding: 10px;
+}
+.Tarea__Radio label{
+    font-size: 18px;
+}
+.Tarea__Result{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+}
+.Tarea__Result--input{
+    text-align: right;
+    font-size: 18px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.Tarea__Result--input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.Guardar{
+    border: none;
+    height: 30px;
+    width: 140px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Guardar:hover{
+    background: grey;
+    border: 2px solid rgb(155, 153, 153);
+}
+.Input__Ingre{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Crear un convertidor de unidades (por ejemplo, de Celsius a Fahrenheit, de 
+    metros a pies, etc.). -->
+    <main class="Tareas">
+        <section class="Tarea">
+            <div class="Tarea__Titulo">
+                <h1>Unit Converter</h1>
+                <p>Elige la unidad que desea Convertir.</p>
+            </div>
+            
+            <div class="Tarea__Select">
+                <div class="Tarea__Radio">
+                    <label for="Celsius">Celsius a Fahrenheit</label>
+                    <input type="radio" value="0" class="Grados " id="RadioCs__F" name="Grados">
+                </div>
+                <div class="Tarea__Radio">
+                    <label for=" Fahrenheit">Fahrenheit a Centigrados</label>
+                    <input type="radio" class=" Grados" id="RadioF__C" name="Grados" value="Fahrenheit">
+                </div>
+                <div class="Tarea__Radio">
+                    <label for="Metros">Metros a Pies</label>
+                    <input type="radio" class="Grados " id="RadioM__P"  name="Grados">
+                </div>
+                <div class="Tarea__Radio">
+                    <label for="Centig">Centigrados a Fahrenheit</label>
+                    <input type="radio" class="Grados" id="RadioC__F" name="Grados">
+                </div>
+                <div class="Tarea__Radio">
+                    <div class="Label__Ingre">
+                        <label for="Ingreso" >Cantidad de grados o Metros a convertir:</label> 
+                    </div>
+                    <div class="Input__Ingre" >
+                        <p id="Asignar">Ingresa valor de °F :</p>
+                        <input type="text" class="InputIngre" name="ingreso" id="Valor" value="0">
+                    </div>
+                </div>
+            </div>
+            <div class="Tarea__Result">
+                <p>Resultado:</p>
+                <input type="text"  id="Resultado" class="Tarea__Result--input" disabled>           
+            </div>
+            <div >
+                <button id="Guardar" class="Guardar" >Calcular</button>
+            </div>
+        </section>
+    </main>
+
+<script src="main.js"></script>
+</body>
+</html>
